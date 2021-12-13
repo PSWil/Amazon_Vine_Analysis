@@ -20,11 +20,11 @@ Here are my answers to these questions.
 
 2. There were 48 5-star vine reviews and 15663 5-star non-vine reviews for a total of 15,711 5-star reviews.
 
-![5_star_reviews](https://github.com/PSWil/Amazon_Vine_Analysis/blob/main/images/paid_unpaid.png)
+![percentage_5_stars](https://github.com/PSWil/Amazon_Vine_Analysis/blob/main/images/helpful_count.png)
 
 3. 51.06% of paid reviews are 5-stars and 38.7% of unpaid reveiws are 5-stars.
 
-![percentage_5_stars](https://github.com/PSWil/Amazon_Vine_Analysis/blob/main/images/helpful_count.png)
+![5_star_reviews](https://github.com/PSWil/Amazon_Vine_Analysis/blob/main/images/paid_unpaid.png)
 
 ## Summary
 
