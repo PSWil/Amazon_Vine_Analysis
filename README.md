@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of the project is to analyze Amazon reviews written by members of the paid Amazon Vine program. In order to complete this analysis, I used a subset of data that pertained to the video game subcategory of Amazon. I then performed an ETL on this data by using AWS, Google Colaboratory, PostgreSQL, and PySpark. After that, I took a closer look at one of the tables I made during the ETL phase regarding the vine reviews to determine if there was any positivity bias for reviews in the Vine Program.
+The purpose of this project is to analyze Amazon reviews written by members of the Amazon Vine program. I used vine review data relating to the video game subcategory of Amazon to conduct my analysis. Using AWS, Google Colaboratory, PostgreSQL, and PySpark I performed the ETL (extract, transform, load) process on the data. Then, I analyzed in depth one of the tables made during the ETL process regarding the vine reviews to determine if there was any positivity bias for reviews in the Vine Program.
 
 ## Results
 
@@ -28,4 +28,4 @@ Here are my answers to these questions.
 
 ## Summary
 
-After looking that the results, I would conclude that there is a positivity bias for reviews in the Vine program. It is important to note that while the non-vine sample size was very large, the vine sample size was less than 100 entries. While 94 entires is still a decent number to sample with, it could lead a less signifcant result. In addition to the current analysis, I could take it a step further and see the percentage of those who purchased the product by filtering through the verified_purchase column to either confirm or fail to confirm if there is a positivity bias for reviews in the Vine program.
+Looking at the results, its clear that there is a positivity bias for reviews in the Vine program. While the non-vine sample size was very large, the vine sample size was less than 100 entries, 94 entires is enought data points to sample with, it could lead a less signifcant result. For further analysis, we could see the percentage of those who purchased the product by filtering through the verified_purchase column to either confirm or fail to confirm if there is a positivity bias for reviews in the Vine program.
